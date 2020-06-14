@@ -12,3 +12,6 @@ while True:
 
 print (products)
 print (products[0][1])
+
+for k in products:
+	print (k[0], '的價格為', k[1])
